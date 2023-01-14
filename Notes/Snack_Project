@@ -1,0 +1,36 @@
+/* 
+const FilmCatalogue = () => {
+  const [films, setfilms]  = useState(FILMS);
+  // Add your useState call here to define a local state variable named films
+
+  const renderFilm = ({item}) => {
+    return (
+      <ListItem>
+      <ListItem.Content>
+        <ListItem.Title>{item.title}</ListItem.Title>
+        <ListItem.Subtitle>{item.director}</ListItem.Subtitle>
+      </ListItem.Content>
+      </ListItem>
+    );
+  }
+
+  return (
+    <Card title="Film Catalogue">
+      <FlatList 
+        data={films}
+        renderItem={renderFilm}
+        keyExtractor={item=>item.id.toString()}
+      />
+    </Card>
+  );
+};
+
+export default FilmCatalogue;
+
+-- Explanation
+
+This code starts with the useState hook that utilizes the films.js array folder with the names of each film
+
+
+
+*/

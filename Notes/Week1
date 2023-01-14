@@ -1,0 +1,18 @@
+you can export default in the beginning of the code or page rather than at the bottom
+
+view component is the most generic container compoent
+like a div element in html
+
+since this isn't the browser world, we won't write
+in jsx anymore its just the app so everything is
+written in components
+
+<text> is a generic container for text also
+
+it also doesn't use vanilla CSS as well, it uses a
+different version of CSS meant for apps called
+StyleSheet
+
+the react view stack stacks different pages 
+depending on where the screen is shown
+

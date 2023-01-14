@@ -1,0 +1,25 @@
+What is redux?
+it is a predictable state container for js
+
+it contains the methods such as 
+    React redux
+        Provider
+        useSelector()
+        useDispatch()
+
+    Redux Toolkit
+        ConfigureStore()
+        createSlice()
+        createAsyncThunk()
+        Redux Thunk
+
+three principles of Redux
+
+    Single source of truth
+        only one center for all the global data
+    State is read-only 
+        That center of data is immutable and can't be 
+        modified directly, you make a copy of it and then
+        modify that
+    Changes are made via pure functions
+    

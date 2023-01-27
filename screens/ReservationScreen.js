@@ -40,10 +40,10 @@ const ReservationScreen = () => {
 
   return (
     <ScrollView>
-      <View style={StyleSheet.formRow}>
-        <Text style={StyleSheet.formLabel}>Number of Campers:</Text>
+      <View style={styles.formRow}>
+        <Text style={styles.formLabel}>Number of Campers:</Text>
         <Picker
-          style={StyleSheet.formItem}
+          style={styles.formItem}
           selectedValue={campers}
           onValueChange={(itemValue) => setCampers(itemValue)}
         >
@@ -55,7 +55,7 @@ const ReservationScreen = () => {
           <Picker.Item label="1" value={6} />
         </Picker>
       </View>
-      <View style={StyleSheet.formRow}>
+      <View style={styles.formRow}>
         <Text style={styles.formLabel}>Hike In?</Text>
         <Switch
           style={styles.formItem}
